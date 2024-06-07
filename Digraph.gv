@@ -1,0 +1,14 @@
+digraph {
+	rankdir=LR
+	raiz [label="Início"]
+	no_0 [label="História de crédito = 1"]
+	raiz -> no_0
+	no_1 [label="Dívida = 1"]
+	no_0 -> no_1
+	no_2 [label="Garantias = 1"]
+	no_1 -> no_2
+	no_3 [label="Renda = 1"]
+	no_2 -> no_3
+	folha_3 [label="Risco = Baixo" color=lightblue shape=box]
+	no_3 -> folha_3
+}
